@@ -1,0 +1,86 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #eff0f4;
+}
+header{
+    background-color: #5fc0cd;
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+}
+.left{
+    position: absolute;
+    left: 10px;
+    top: 14px;
+    text-align: center;
+    font-size: 14px;
+}
+.center{
+    position: absolute;
+    top: 12px;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.right{
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    text-align: center;
+    font-size: 14px;
+}
+.left,.center,.right,button{
+    color: white;
+}
+.input1 input {
+    border: none;
+    outline: none;
+    margin: 10px 0 5px 0;
+    padding: 4px 0 4px 70px;
+    background: url("task4images/03.png") white no-repeat 20px 12px;
+    background-size: 15px auto;
+}
+.line{
+    position: absolute;left: 55px;top : 67px;z-index: 3;
+    width: 2px;
+    height: 30px;
+    background-color: #eff0f4;
+}
+.line1{
+    position: absolute;left: 55px;top : 124px;z-index: 3;
+    width: 2px;
+    height: 30px;
+    background-color: #eff0f4;
+}
+.input1,.input2{
+    overflow: hidden;
+}
+.input2 input{
+    border: none;
+    outline: none;
+    margin: 5px 0;
+    padding: 4px 0 4px 70px;
+    background: url("task4images/06.png") white no-repeat 20px 12px;
+    background-size: 15px auto;
+}
+button {
+    border: none;
+    outline: none;
+    margin: 5px 0;
+    font-size: 16px;
+    background-color: #5fc0cd;
+}
+.foot{
+    position: absolute;
+    right: 10px;
+}
+a{
+    color: #5fc0cd;
+    font-weight: bold;
+    font-size: 12px;
+}

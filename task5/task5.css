@@ -1,0 +1,133 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+header{
+    height: 50px;width: 100%;
+    background-color: #5fc0cd;
+    position: fixed;
+    z-index: 5;
+}
+.back{
+    width: 15px;height: 15px;
+    background: url("task5images/1.png") no-repeat;
+    background-size: auto 15px;
+    position: absolute ; left:15px; top: 15px;
+}
+.title{
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+    padding-top: 14px;
+}
+.pic{
+    width: 90px; height: 90px;
+    background: url("task5images/3.png") no-repeat;
+    background-size: 90px auto;
+    position: absolute;
+    left: 20px; top: 110px;
+    z-index: 2;
+}
+.info-bg{
+    width: 100%;height: 250px;
+    background: url("task5images/2.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0; top: 0;
+    z-index: 1;
+}
+.info{
+    position: absolute;
+    left: 140px;top: 125px;
+    z-index: 2;
+    color: white;
+}
+.info-address{
+    position: absolute;
+    left: 140px;top:145px;
+    z-index: 2;
+    color: white;
+}
+.info-address img{
+    width: 12px;height: auto;
+    margin: 5px 5px 0 0;
+}
+.details{
+    position: absolute;
+    left: 0;top:260px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+li{
+    border-bottom: 2px solid #eff0f4;
+    display: flex;
+    align-items: center;
+}
+.line1{
+    position: absolute;left: 10px;top: 30px;z-index: 5;
+    width: 5px;height: 15px;color: #5fc0cd;
+}
+.skills{
+    padding: 10px 0 10px 20px;
+    font-weight: bold;
+}
+.remark{
+    padding: 10px 0 10px 10px;
+    margin-left: 5px ;
+}
+.remark img{
+    width: 16px;height: auto;
+    margin-left: 10px;
+}
+.info-title{
+    display: inline-block;
+    color: #999999;
+    padding: 10px 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.info-details{
+    color: black;
+    font-weight: bold;
+}
+.line2{
+    width: 2px;height: 15px;z-index: 10;
+    padding: 2px;
+    color: #999999;
+}
+footer{
+    position: fixed; bottom: 0;z-index: 5;
+    width: 100%;height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-left{
+    flex-basis: 10px;
+    flex-grow: 1;
+    height: 70%;
+    margin: 5px 5px 5px 10px;
+    border: 2px solid #5fc0cd;
+    background-color: white;
+    color: #5fc0cd;
+    border-radius: 7px;
+}
+.button-right{
+    flex-basis: 10px;
+    flex-grow: 1;
+    height: 70%;
+    margin: 5px 10px 5px 5px;
+    border: 2px solid #5fc0cd;
+    background-color: #5fc0cd;
+    color: white;
+    border-radius: 7px;
+}

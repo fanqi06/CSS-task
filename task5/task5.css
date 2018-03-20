@@ -1,26 +1,26 @@
-html,body{
+html,body {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
     background-color: white;
 }
-header{
+header {
     height: 50px;width: 100%;
     background-color: #5fc0cd;
     position: fixed;
-    z-index: 5;
+    z-index: 999999;
 }
-main{
+main {
     height: 100%;
 }
-.back{
+.back {
     width: 15px;height: 15px;
-    background: url("task5images/1.png") no-repeat;
+    background: url(task5images/1.png) no-repeat;
     background-size: auto 15px;
     position: absolute ; left:15px; top: 15px;
 }
-.title{
+.title {
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -28,106 +28,106 @@ main{
     text-align: center;
     padding-top: 14px;
 }
-.pic{
+.pic {
     width: 90px; height: 90px;
-    background: url("task5images/3.png") no-repeat;
+    background: url(task5images/3.png) no-repeat;
     background-size: 90px auto;
     position: absolute;
     left: 20px; top: 110px;
     z-index: 2;
 }
-.info-bg{
+.info-bg {
     width: 100%;height: 240px;
-    background: url("task5images/2.png") no-repeat;
+    background: url(task5images/2.png) no-repeat;
     background-size: cover;
     position: absolute;
     left: 0; top: 0;
     z-index: 1;
 }
-.info{
+.info {
     position: absolute;
     left: 130px;top: 125px;
     z-index: 2;
     color: white;
 }
-.info-address{
+.info-address {
     position: absolute;
     left: 130px;top:145px;
     z-index: 2;
     color: white;
     font-size: 14px;
 }
-.info-address img{
+.info-address img {
     width: 12px;height: auto;
     margin: 5px 5px 0 0;
 }
-.details{
+.details {
     position: absolute;
     left: 0;top:250px;
     padding-bottom: 18%;
 }
-ul{
+ul {
     list-style: none;
     padding: 0;
     margin: 0;
     font-size: 14px;
 }
-li{
+li {
     padding: 12px 10px 12px 0;
     margin-left: 15px;
     border-bottom: 2px solid #eff0f4;
     display: flex;
     align-items: center;
 }
-.line1{
+.line1 {
     width: 4px;height: 15px;
     background-color: #5fc0cd;
     margin-right: 5px;
     z-index: 5;
 }
-.skills{
+.skills {
     padding: 8px 0 10px 10px;
     margin-left: 0;
     font-weight: bold;
 }
-.remark{
+.remark {
     padding: 12px 0;
     margin-left: 15px ;
     font-weight: bold;
 }
-.remark img{
+.remark img {
     width: 16px;height: auto;
     margin-left: 10px;
     margin-right: 5px;
 }
-.info-title{
+.info-title {
     position: absolute;left: 10px;
     color: #999999;
     margin-left: 10px;
     margin-right: 20px;
 }
-.info-details{
+.info-details {
     margin-left: 90px;
     margin-right: 10px;
     color: black;
     font-weight: bold;
 }
-.line2{
+.line2 {
     position: absolute;left: 90px;
     width: 1px;height: 25px;z-index: 5;
     background-color: #999999;
 }
-.price-color{
+.price-color {
     color: #e26163;
 }
-footer{
-    position: fixed; bottom: 0;z-index: 5;
+footer {
+    position: fixed; bottom: 0; z-index: 999999;
     width: 100%;height: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.button-left{
+.button-left {
     flex-basis: 10px;
     flex-grow: 1;
     height: 70%;
@@ -137,7 +137,7 @@ footer{
     color: #5fc0cd;
     border-radius: 7px;
 }
-.button-right{
+.button-right {
     flex-basis: 10px;
     flex-grow: 1;
     height: 70%;

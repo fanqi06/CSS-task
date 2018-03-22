@@ -1,0 +1,205 @@
+html,body {
+    width: 100%; height: 100%;
+    margin: 0; padding: 0;
+    background-color: white;
+}
+header {
+    width: 100%; height: 50px;
+    background-color: #5fc0cd;
+    position: fixed; top: 0; z-index: 9999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-left {
+    flex-basis: 80px;
+    height: 35px;
+    background-color: #55a8b3;
+    border-radius: 5px;
+    color: white;
+    border: none; outline: none;
+    font-size: 16px;
+}
+.button-right {
+    flex-basis: 80px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: white;
+    color: #5fc0cd;
+    border: none; outline: none;
+    font-size: 16px;
+}
+.button-position {
+    width: 21px; height: 22px;
+    background: url(task6images/css_sprites.png) -77px -10px no-repeat;
+    background-size: 149px 107px;
+    position: absolute; right: 10px;
+    outline: none; border: none;
+}
+.drop-list {
+    width: 100%; height: 45px;
+    position: fixed; top: 50px; z-index: 999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #999;
+}
+.blank {
+    width: 100%; height: 50px;
+    position: fixed; top: 50px; z-index: 999998;
+    background: white;
+}
+.btn {
+    background-color: white;
+}
+.button {
+    border: none;
+    outline: none;
+}
+.triangle {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 15%;
+    vertical-align: middle;
+    border-top: 5px solid #999;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+.drop-list-left,.drop-list-center,.drop-list-right {
+    width: 33.33%; height: 50px;
+    color: #999;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.drop-list-center ul {
+    width: 60%;
+}
+.line {
+    background: linear-gradient( white, #999, white);
+    width: 1px; height: 35px;
+}
+main {
+    width: 100%;
+    margin: 0 0 50px 0;
+    position: absolute; top: 100px;
+}
+ul {
+    list-style: none;
+    border: none;
+    padding: 0;
+}
+main li {
+    border-bottom: 1px solid #999;
+    padding: 10px 0 10px 10px;
+}
+.date {
+    display: flex;
+}
+.date p {
+    padding-top: 3px;
+    margin: 0 0 0 9px;
+    color: #999;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.icon-date {
+    width: 24px; height: 24px;
+    transform: scale(.7,.7);
+    background: url(task6images/css_sprites.png) -106px -154px;
+    background-size: 298px 214px;
+}
+.date-price {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.date-detail {
+    padding-left: 32px;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.price {
+    color: #e26163;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 30px;
+    margin: 0;
+}
+.icon-more {
+    width: 9px; height: 16px;
+    margin-top: 2px;
+    background: url(task6images/css_sprites.png) -118px -50px;
+    background-size: 149px 107px;
+    position: absolute;right: 15px;
+}
+.location {
+    display: flex;
+}
+.location p {
+    padding-top: 3px;
+    margin: 0 0 0 10px;
+    color: #999;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.icon-location {
+    width: 19px; height: 23px;
+    transform: scale(.7,.7);
+    background: url(task6images/css_sprites.png) -170px -154px;
+    background-size: 298px 214px;
+}
+footer {
+    width: 100%; height: 47px;
+    position: fixed; bottom: 0; z-index: 999999;
+    background-color: #f8fafb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43px; height: 40px;
+    background: url(task6images/css_sprites.png) 0 -72px no-repeat;
+    background-size: 149px 107px;
+    padding-top: 26px;
+    margin-right: 15%;
+    outline: none; border: none;
+    color: #5fc0cd;
+}
+.footer-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 47px; height: 47px;
+    background: url(task6images/css_sprites.png) -10px -10px;
+    background-size: 149px 107px;
+    outline: none; border: none;
+}
+.footer-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px; height: 41px;
+    background: url(task6images/css_sprites.png) -108px -4px no-repeat;
+    background-size: 149px 107px;
+    padding-top: 26px;
+    margin-left: 15%;
+    outline: none; border: none;
+    color: #999999;
+}

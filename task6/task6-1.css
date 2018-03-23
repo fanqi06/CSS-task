@@ -73,11 +73,9 @@ header {
 }
 main {
     width: 100%;
-    padding: 0 0 50px 0;
-    margin-top: 100px;
+    padding-bottom: 50px;
     position: absolute;
-    height: auto;
-    overflow: auto;
+    overflow: hidden;
 }
 ul {
     list-style: none;

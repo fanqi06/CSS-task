@@ -63,11 +63,6 @@ header {
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
 }
-select {
-    appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-}
 .drop-list-left,.drop-list-center,.drop-list-right {
     width: 33.33%; height: 50px;
     color: #999;

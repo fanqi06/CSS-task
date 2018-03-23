@@ -187,7 +187,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(task6images/css_sprites.png) -108px -4px no-repeat;
+    background: url(task6images/css_sprites.png) -100px -4px no-repeat;
     background-size: 149px 107px;
     width: 60px;
     padding-top: 20px;

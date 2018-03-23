@@ -1,9 +1,10 @@
-html,body {
-    margin: 0; padding: 0;
-    background-color: white;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 header {
-    width: 100%; height: 50px;
+    width: 100%; height: 50px; z-index: 999999;
     background-color: #5fc0cd;
     position: fixed; top: 0; left: 0;
     display: flex;
@@ -37,17 +38,14 @@ header {
 }
 .drop-list {
     width: 100%; height: 45px;
-    position: fixed; top: 50px; left: 0;
+    position: absolute; top: 50px; left: 0;
+    padding: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     border-bottom: 1px solid #999;
 }
-.blank {
-    width: 100%; height: 50px;
-    position: fixed; top: 50px;
-    background: white;
-}
+
 .button {
     border: none;
     outline: none;
@@ -69,14 +67,17 @@ header {
 .drop-list-center ul {
     width: 60%;
 }
+.dropdown-menu {
+    background-color: white;
+}
 .line {
     background: linear-gradient( white, #999, white);
     width: 1px; height: 35px;
 }
 main {
-    width: 100%;
-    padding: 0 0 50px 0;
     position: absolute; top: 95px;
+    width: 100%;
+    bottom: 50px;
     height: auto;
     overflow: auto;
 }
@@ -85,7 +86,7 @@ ul {
     border: none;
     padding: 0;
 }
-main li {
+li {
     position: relative;
     border-bottom: 1px solid #999;
     padding: 0 0 10px 10px;

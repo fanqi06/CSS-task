@@ -182,7 +182,7 @@ footer {
     outline: none; border: none;
 }
 .footer-right {
-    width: 42px; height: 41px;
+    width: 42px;
     background: url(task6images/css_sprites.png) -108px -4px no-repeat;
     background-size: 149px 107px;
     padding-top: 26px;

@@ -166,7 +166,6 @@ footer {
     width: 48px; height: 40px;
     background: url(task6images/css_sprites.png) 0 -72px no-repeat;
     background-size: 149px 107px;
-    padding-top: 26px;
     margin-right: 15%;
     outline: none; border: none;
     color: #5fc0cd;
@@ -185,7 +184,6 @@ footer {
     width: 48px; height: 41px;
     background: url(task6images/css_sprites.png) -110px -4px no-repeat;
     background-size: 149px 107px;
-    padding-top: 26px;
     margin-left: 15%;
     outline: none; border: none;
     color: #999;

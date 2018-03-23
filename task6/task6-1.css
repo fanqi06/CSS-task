@@ -163,7 +163,16 @@ footer {
     justify-content: center;
 }
 .footer-left {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none; border: none;
+    background: url(task6images/css_sprites.png) 0 -77px no-repeat;
+    background-size: 149px 107px;
+    padding-top: 20px;
+    width: 43px;
+    color: #5fc0cd;
+    margin-right: 15%;
 }
 .footer-center {
     display: flex;
@@ -175,5 +184,14 @@ footer {
     outline: none; border: none;
 }
 .footer-right {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(task6images/css_sprites.png) -108px -4px no-repeat;
+    background-size: 149px 107px;
+    width: 43px;
+    padding-top: 20px;
+    margin-left: 15%;
+    outline: none; border: none;
+    color: #999;
 }

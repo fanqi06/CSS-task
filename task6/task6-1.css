@@ -167,9 +167,9 @@ footer {
     align-items: center;
     justify-content: center;
     outline: none; border: none;
-    background: url(task6images/css_sprites.png) 0 -77px no-repeat;
+    background: url(task6images/css_sprites.png) 3px -73px no-repeat;
     background-size: 149px 107px;
-    padding-top: 20px;
+    padding-top: 25px;
     width: 50px;
     color: #5fc0cd;
     margin-right: 15%;
@@ -188,10 +188,10 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(task6images/css_sprites.png) -100px -4px no-repeat;
+    background: url(task6images/css_sprites.png) -104px -7px no-repeat;
     background-size: 149px 107px;
     width: 50px;
-    padding-top: 20px;
+    padding-top: 25px;
     margin-left: 15%;
     outline: none; border: none;
     color: #999;

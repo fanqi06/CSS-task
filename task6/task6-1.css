@@ -49,9 +49,6 @@ header {
     position: fixed; top: 50px; z-index: 999998;
     background: white;
 }
-.btn {
-    background-color: white;
-}
 .button {
     border: none;
     outline: none;

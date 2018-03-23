@@ -170,7 +170,7 @@ footer {
     background: url(task6images/css_sprites.png) 0 -77px no-repeat;
     background-size: 149px 107px;
     padding-top: 20px;
-    width: 43px;
+    width: 60px;
     color: #5fc0cd;
     margin-right: 15%;
 }
@@ -189,7 +189,7 @@ footer {
     justify-content: center;
     background: url(task6images/css_sprites.png) -108px -4px no-repeat;
     background-size: 149px 107px;
-    width: 43px;
+    width: 60px;
     padding-top: 20px;
     margin-left: 15%;
     outline: none; border: none;

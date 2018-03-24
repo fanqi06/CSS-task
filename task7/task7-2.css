@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #29bde0;
+}
+header {
+    width: 100%;height: 50px;
+    position: fixed; top: 0;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.header-icon-left {
+    width: 20px; height: 20px;
+    background: url(task7images/css_sprites.png) -291px -10px;
+    background-size: 452px 48px;
+    position: absolute;
+    top: 20px; left: 15px;
+}
+.header-icon-right {
+    width: 18px; height: 18px;
+    background: url(task7images/css_sprites.png) -253px -10px;
+    background-size: 452px 48px;
+    position: absolute;
+    top: 21px; right: 15px;
+}
+footer {
+    width: 100%; height: 80px;
+    position: fixed; bottom: 0;
+}
+.button-bottom {
+    width: 76%; height: 40px;
+    background-color: #fbb435;
+    line-height: 40px; text-align: center;
+    color: white;
+    font-size: 20px;
+    position: absolute; top: 15px; left: 12%; right: 12%;
+    border: none; outline: none;
+}

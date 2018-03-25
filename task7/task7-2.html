@@ -4,13 +4,175 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
     <title>投票</title>
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="task7-2.css">
+    <script type="text/javascript">
+        $(function(){
+            //播放器控制
+            var audio = document.getElementById('bgm');
+            audio.volume = .3;
+            $('.btn-audio').click(function() {
+                event.stopPropagation();
+                if(audio.paused){
+                    $('.btn-audio')
+                    audio.play(); //播放
+                    return;
+                }else{//当前是播放状态
+                    $('.btn-audio')
+                    audio.pause(); //暂停
+                }
+            });
+        })
+    </script>
 </head>
 <body>
-<header>投票
-    <div class="header-icon-left"></div>
-    <div class="header-icon-right"></div>
+<header>
+    <div class="header-top">
+        <p>投票</p>
+        <div class="header-icon-left"></div>
+        <div class="header-icon-right"></div>
+    </div>
+    <div class="tips">
+        <p>发言讨论结束，大家请投票</p>
+        <div class="btn-audio">
+        <audio id="bgm" src="财富自由.mp3"></audio>
+        </div>
+    </div>
+    <div class="triangle-down"></div>
 </header>
+<main>
+    <div class="tip1">
+    <p>点击得票数最多的人的头像</p>
+    </div>
+    <div class="player-row">
+        <div class="player-details">
+            <div class="player-identity">水民</div>
+            <div class="player-number">1号</div>
+            <div class="options">
+                <span class="icon-1"></span>
+                <span class="icon-2"></span>
+                <span class="icon-3"></span>
+                <span class="icon-4"></span>
+            </div>
+        </div>
+        <div class="player-details">
+            <div class="player-identity">水民</div>
+            <div class="player-number">2号</div>
+            <div class="options">
+                <span class="icon-1"></span>
+                <span class="icon-2"></span>
+                <span class="icon-3"></span>
+                <span class="icon-4"></span>
+            </div>
+        </div>
+        <div class="player-details">
+            <div class="player-identity">警察</div>
+            <div class="player-number">3号</div>
+            <div class="options">
+                <span class="icon-1"></span>
+                <span class="icon-2"></span>
+                <span class="icon-3"></span>
+                <span class="icon-4"></span>
+            </div>
+        </div>
+    </div>
+    <div class="player-row">
+        <div class="player-details">
+            <div class="player-identity">法官</div>
+            <div class="player-number">4号</div>
+            <div class="options">
+                <span class="icon-1"></span>
+                <span class="icon-2"></span>
+                <span class="icon-3"></span>
+                <span class="icon-4"></span>
+            </div>
+        </div>
+        <div class="player-details">
+            <div class="player-identity">狙击手</div>
+            <div class="player-number">5号</div>
+            <div class="options">
+                <span class="icon-1"></span>
+                <span class="icon-2"></span>
+                <span class="icon-3"></span>
+                <span class="icon-4"></span>
+            </div>
+        </div>
+        <div class="player-details">
+            <div class="player-identity">医生</div>
+            <div class="player-number">6号</div>
+            <div class="options">
+                <span class="icon-1"></span>
+                <span class="icon-2"></span>
+                <span class="icon-3"></span>
+                <span class="icon-4"></span>
+            </div>
+        </div>
+    </div>
+    <div class="player-row">
+        <div class="player-details">
+            <div class="player-identity">杀手</div>
+            <div class="player-number">7号</div>
+            <div class="options">
+                <span class="icon-1"></span>
+                <span class="icon-2"></span>
+                <span class="icon-3"></span>
+                <span class="icon-4"></span>
+            </div>
+        </div>
+        <div class="player-details">
+            <div class="player-identity">水民</div>
+            <div class="player-number">8号</div>
+            <div class="options">
+                <span class="icon-1"></span>
+                <span class="icon-2"></span>
+                <span class="icon-3"></span>
+                <span class="icon-4"></span>
+            </div>
+        </div>
+        <div class="player-details">
+            <div class="player-identity">水民</div>
+            <div class="player-number">9号</div>
+            <div class="options">
+                <span class="icon-1"></span>
+                <span class="icon-2"></span>
+                <span class="icon-3"></span>
+                <span class="icon-4"></span>
+            </div>
+        </div>
+    </div>
+    <div class="player-row">
+        <div class="player-details">
+            <div class="player-identity">水民</div>
+            <div class="player-number">10号</div>
+            <div class="options">
+                <span class="icon-1"></span>
+                <span class="icon-2"></span>
+                <span class="icon-3"></span>
+                <span class="icon-4"></span>
+            </div>
+        </div>
+        <div class="player-details">
+            <div class="player-identity">水民</div>
+            <div class="player-number">11号</div>
+            <div class="options">
+                <span class="icon-1"></span>
+                <span class="icon-2"></span>
+                <span class="icon-3"></span>
+                <span class="icon-4"></span>
+            </div>
+        </div>
+        <div class="player-details">
+            <div class="player-identity">警察</div>
+            <div class="player-number">12号</div>
+            <div class="options">
+                <span class="icon-1"></span>
+                <span class="icon-2"></span>
+                <span class="icon-3"></span>
+                <span class="icon-4"></span>
+            </div>
+        </div>
+    </div>
+</main>
 <footer>
     <button class="button-bottom">投死</button>
 </footer>

@@ -93,7 +93,7 @@ main {
 }
 .icon-1 {
     width: 15px; height: 15px;
-    background: url(task7images/css_sprites.png) -181px -10px;
+    background: url(task7images/css_sprites.png) -76px -10px;
     background-size: 452px 48px;
 }
 .icon-2 {
@@ -103,7 +103,7 @@ main {
 }
 .icon-3 {
     width: 15px; height: 15px;
-    background: url(task7images/css_sprites.png) -76px -10px;
+    background: url(task7images/css_sprites.png) -181px -10px;
     background-size: 452px 48px;
 }
 .icon-4 {

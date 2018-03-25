@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    width: 100%; height: 50px;
+    position: fixed; top: 0;
+    line-height: 50px;
+    text-align: center;
+    background-color: #29bde0;
+    color: white;
+    font-size: 18px;
+    border-bottom: #74d4eb solid 1px;
+}
+.icon-home {
+    width: 26px; height: 21px;
+    background: url(task7images/css_sprites.png) -371px -10px;
+    background-size: 452px 48px;
+    position: absolute;
+    top: 15px; left: 15px;
+}
+.icon-info {
+    width: 20px; height: 20px;
+    background: url(task7images/css_sprites.png) -331px -10px;
+    background-size: 452px 48px;
+    position: absolute;
+    top: 16px; right: 15px;
+}
+main {
+    position: absolute; top: 51px;
+    width: 100%; height: auto;
+    bottom: 0;
+    padding-bottom: 65px;
+    overflow: auto;
+    background-color: white;
+}
+.game-result {
+    background-color: #29bde0;
+    padding-top: 15px;
+}
+.background-image {
+    width: 175px; height: 103px;
+    background: url(task7images/13.png)  #29bde0 no-repeat;
+    background-size: 175px 103px;
+    margin: 0 auto;
+}
+.do-you-know {
+    color: #ffc865;
+    font-size: 18px;
+    margin: 0 12vw;
+}
+.result-details {
+    color: white;
+    font-size: 14px;
+    margin: 40px 12vw 0 12vw;
+    padding-bottom: 20px;
+}
+ul {
+    list-style: none;
+}
+.game-details {
+    background-color: white;
+}
+.game-details li {
+    padding: 10px 12vw;
+    border-bottom: #ddd solid 1px;
+}
+.date-and-time {
+    display: flex;
+    justify-content: space-between;
+}
+.date {
+    font-size: 16px;
+    font-weight: bold;
+}
+.game-time {
+    font-size: 12px;
+    color: #c7c7c7;
+}
+.date-time p {
+    color: #a6a6a6;
+    font-size: 14px;
+}
+footer {
+    width: 100%; height: 60px;
+    position: fixed; bottom: 0;
+    background: transparent;
+    background-color: rgba(41,189,224,.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.once-more {
+    width: 40%; height: 45px;
+    background-color: #f66f6f;
+    border: none; outline: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+.upload-share {
+    width: 40%; height: 45px;
+    background-color: #fbb435;
+    border: none; outline: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}

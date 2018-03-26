@@ -67,17 +67,18 @@ main {
 .player-row {
     display: flex;
     justify-content: space-around;
-    padding: 5vw 0;
 }
 .player-details {
-    width: 23vw; height: 23vw;
-    border: white solid 3px;
+    width: 24vw; height: 35vw;
+    margin-top: 5vw;
 }
 .player-identity {
     width: 100%; height: 19vw;
     background-color: #f5c97b;
     line-height: 19vw;
     text-align: center;
+    border: white solid 3px;
+    border-bottom: none;
 }
 .player-number {
     width: 100%; height: 4vw;
@@ -85,6 +86,8 @@ main {
     line-height: 4vw;
     text-align: center;
     color: white;
+    border: white solid 3px;
+    border-top: none;
 }
 .player-details:hover .options {
     display: flex;
@@ -92,24 +95,24 @@ main {
     margin-top: 10px;
 }
 .icon-1 {
-    width: 15px; height: 15px;
-    background: url(task7images/css_sprites.png) -76px -10px;
-    background-size: 452px 48px;
+    width: 3.5vw; height: 3.5vw;
+    background: url(task7images/4.png);
+    background-size: 3.5vw 3.5vw;
 }
 .icon-2 {
-    width: 15px; height: 15px;
-    background: url(task7images/css_sprites.png) -146px -10px;
-    background-size: 452px 48px;
+    width: 3.5vw; height: 3.5vw;
+    background: url(task7images/5.png);
+    background-size: 3.5vw 3.5vw;
 }
 .icon-3 {
-    width: 15px; height: 15px;
-    background: url(task7images/css_sprites.png) -181px -10px;
-    background-size: 452px 48px;
+    width: 3.5vw; height: 3.5vw;
+    background: url(task7images/6.png);
+    background-size: 3.5vw 3.5vw;
 }
 .icon-4 {
-    width: 15px; height: 15px;
-    background: url(task7images/css_sprites.png) -111px -10px;
-    background-size: 452px 48px;
+    width: 3.5vw; height: 3.5vw;
+    background: url(task7images/7.png);
+    background-size: 3.5vw 3.5vw;
 }
 footer {
     width: 100%; height: 80px;

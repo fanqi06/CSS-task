@@ -95,24 +95,24 @@ main {
     margin-top: 10px;
 }
 .icon-1 {
-    width: 3.5vw; height: 3.5vw;
+    width: 5vw; height: 5vw;
     background: url(task7images/4.png);
-    background-size: 3.5vw 3.5vw;
+    background-size: 5vw 5vw;
 }
 .icon-2 {
-    width: 3.5vw; height: 3.5vw;
+    width: 5vw; height: 5vw;
     background: url(task7images/5.png);
-    background-size: 3.5vw 3.5vw;
+    background-size: 5vw 5vw;
 }
 .icon-3 {
-    width: 3.5vw; height: 3.5vw;
+    width: 5vw; height: 5vw;
     background: url(task7images/6.png);
-    background-size: 3.5vw 3.5vw;
+    background-size: 5vw 5vw;
 }
 .icon-4 {
-    width: 3.5vw; height: 3.5vw;
+    width: 5vw; height: 5vw;
     background: url(task7images/7.png);
-    background-size: 3.5vw 3.5vw;
+    background-size: 5vw 5vw;
 }
 footer {
     width: 100%; height: 80px;

@@ -97,6 +97,7 @@ main {
 .detail-2 {
     width: 180px;
     padding: 0 10px;
+    color: #a1a1a1;
 }
 @media (max-width: 1200px) {
     .detail-2 {width: auto}

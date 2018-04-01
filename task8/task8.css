@@ -1,0 +1,138 @@
+.header-top {
+    width: 100%;
+    height: 40px;
+}
+.contact {
+    line-height: 40px;
+    color: #29b078;
+}
+.icon-media {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 8px;
+}
+.icon-top {
+    padding: 0 5px;
+}
+.nav-all {
+    width: 100%;
+    background-color: #29b078;
+}
+.navbar-top {
+
+    background-color: #29b078;
+}
+.navbar-brand {
+    padding-top: 8px;
+}
+@media (max-width: 768px) {
+    .navbar-brand img {
+        width: 70px;
+        height: auto;
+        padding-top: 5px;
+}
+}
+.navbar-default {
+    border: none;
+    outline: none;
+    margin: 0;
+    background-color: #29b078;
+}
+.navbar-toggle {
+    margin-top: 15px;
+    margin-right: 0;
+}
+.navbar-collapse {
+    border: none;
+    outline: none;
+}
+.navbar-default .navbar-nav>li {
+    text-align: center;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: #32c086;
+}
+.navbar-default .navbar-nav>li>a:visited {
+    color: #fff;
+}
+.navbar-default .navbar-toggle {
+    border: none;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #32c086;
+}
+.navbar-2 {
+    width: 100%;
+    height: 100px;
+    background-color: #29b078;
+}
+.navbar-2 img {
+    padding-top: 25px;
+}
+.menu-2 {
+    display: flex;
+    justify-content: flex-end;
+    line-height: 100px;
+}
+.navigation-2 {
+    width: 70px;
+    height: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+.menu-2 a:hover {
+    border-bottom: 5px solid #fff;
+}
+.menu-2 a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+footer {
+    width: 100%;
+    background-color: #29b078;
+}
+.footer-details {
+    padding: 30px 30px;
+    color: #fff;
+}
+.footer-title {
+    font-size: 16px;
+    color: #fff;
+}
+.title-left {
+    margin-bottom: 60px;
+}
+.title-center {
+    margin-bottom: 30px;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 10px 10px 0;
+    font-size: 14px;
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+}
+.our-webs {
+    margin-top: 10px;
+}
+.copyright {
+    width: 100%;
+    background-color: #29b078;
+    border-top: 1px solid #32c086;
+}
+.copyright-details {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 5px 0;
+}

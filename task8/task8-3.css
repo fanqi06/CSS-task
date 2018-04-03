@@ -1,0 +1,96 @@
+main {
+    background-color: #fafafa;
+    padding-bottom: 200px;
+}
+.banner {
+    width: 100vw;
+    height: 13vw;
+    background: url(task8images/20.png) no-repeat;
+    background-size: cover;
+}
+main a {
+    color: black;
+    text-decoration: none;
+}
+main a:hover {
+    text-decoration: none;
+}
+.title-main a:hover {
+    color: #29b078;
+}
+.title-main {
+    padding: 20px 0;
+    border-bottom: 1px solid #d0d6d9;
+}
+.title-all {
+    font-size: 18px;
+}
+.title-top a {
+    font-size: 16px;
+    color: #29b078;
+}
+.main-left {
+    background-color: #fff;
+    margin-top: 40px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+}
+.coopers {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    border: 2px solid #ff640c;
+
+}
+.webs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+.corps {
+    width: 75px;
+    padding-left: 5px;
+}
+.corps a {
+    color: #29b078;
+    text-decoration: none;
+}
+.corps a:hover {
+    color: #ff650e;
+    text-decoration: none;
+}
+.webs:hover .circle {
+    background-color: #f9a372;
+}
+.icon-td {
+    float: left;
+    padding: 40px;
+}
+.main-top {
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.article {
+    background-color: #fff;
+    padding-bottom: 100px;
+    margin-top: 40px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+}
+.article p {
+    padding: 30px 30px 0 30px;
+    color: #999;
+}
+.main-top p {
+    padding-top: 15px;
+}

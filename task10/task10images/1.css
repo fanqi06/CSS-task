@@ -1,0 +1,23 @@
+.rdo {
+    width: 20px;
+    height: 0;
+    margin-left: 30px;
+    border-radius: 50%;
+    position: relative;
+}
+.rdo:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: -15px;
+    border-radius: 50%;
+    transition: .3s ease;
+}
+.rdo:after {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #1d7ad9;
+}
+.rdo:checked:after {
+    border: 8px solid #1d7ad9;
+}
